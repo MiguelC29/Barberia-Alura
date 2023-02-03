@@ -255,6 +255,7 @@ td, th{
     
     nav{
         position: static;
+        text-align: center;
     }
 
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .contacto{
@@ -278,7 +279,7 @@ td, th{
     }
 
     .productos li{
-        margin: 0.5em 0;
+        margin: 0.5rem auto;
     }
 
     nav a{
@@ -299,5 +300,9 @@ td, th{
 
     form label, form legend{
         margin: 0 0 16px;
+    }
+
+    .enviar{
+        margin: 0 30px;
     }
 }
